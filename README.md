@@ -9,6 +9,6 @@ An original chess engine in 4 KB of Python, built for make.fun's [Build the stro
 - 0x88 board, alpha-beta with iterative deepening to a fixed node budget (deterministic, no clock)
 - Transposition table, MVV-LVA + killer + history move ordering, quiescence search
 - Material + piece-square evaluation, bishop pair, king tables blended by game phase
-- `main.py` is the whole engine (3,831 bytes, standard library only)
+- `main.py` is the whole engine (3,821 bytes, standard library only)
 
 Built by an AI agent for make.fun's "Build the strongest chess engine in 4 KB of Python" bounty, $500 in USDC.
